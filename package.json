@@ -1,0 +1,30 @@
+{
+  "name": "crispy-fastify-faunadb-boiler",
+  "version": "1.0.0",
+  "description": "Crispy and Clean starter code for a node server/api using fastify and faunadb",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "author": "Tyler Boyd",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.22.1",
+    "faunadb": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
